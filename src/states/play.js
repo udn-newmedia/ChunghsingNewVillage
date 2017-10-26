@@ -52,5 +52,9 @@ export default {
         {
             player.body.moveRight(300);
         }
+    },
+
+    render: function(){
+        // this.game.debug.spriteBounds(player);
     }
 }

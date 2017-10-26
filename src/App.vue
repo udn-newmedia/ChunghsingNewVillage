@@ -19,9 +19,11 @@
       <p>20年來，台灣邊緣弱勢兒童增加一倍。《聯合報》找到8歲住在貨櫃屋的女孩、找到住在破舊髒亂沒熱水澡可洗的10歲男孩，但我們不想一次性消費個案故事，也不是給予捐款就能幫孩子翻轉命運。我們想邀請讀者探究為何這麼多孩子落在社會安全網之外？理解社會制度出了何種問題，進一步督促政府補好安全網。</p>
       <p><br/></p>
       <Share href="https://udn.com/upf/newmedia/2017_data/poverty/index.html" />
+      <p><br></p>
+      <p><br></p>
+    <illustration/>
     </ContentContainer>
     
-    <illustration/>
 
 		<ContentContainer background-color="#ECEAEA">
 			<p>從車站到學校，沿途都是荒煙蔓草，雜草比人高，幾乎把車道掩埋。在這裡，有個小女孩住在貨櫃屋裡。</p>
