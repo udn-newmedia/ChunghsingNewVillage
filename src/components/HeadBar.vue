@@ -2,7 +2,9 @@
     <div id="head-bar" :style="{top: top+'px'}">
         <div id="hbutton-contain">
             <slot></slot>
-            <div id="logo-contain" class="hidden-lg">
+            <slot name="inner-link" :linkType="inner"></slot>
+            <slot name="outer-link" :linkType="outer"></slot>
+            <div id="logo-contain" class="hidden-lg" >
                 <Logo />
             </div>
         </div>
@@ -31,7 +33,9 @@ export default {
     data: function() {
         return {
             top: 0,
-            isOpen: false
+            isOpen: false,
+            inner: "inner",
+            outer: "outer"
         }
     },
     mounted: function() {
@@ -52,6 +56,9 @@ export default {
                 }
 
             }
+        },
+        say: function(message){
+            console.log(message);
         }
     }
 }

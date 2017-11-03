@@ -4,10 +4,8 @@
     <Indicator color="#FF4612"/>
 
     <HeadBar>
-      <div class="hbutton" data-target="1">住在貨櫃屋的女孩</div>
-      <div class="hbutton" data-target="2">等鄰居開門的男孩</div>
-      <div class="hbutton" data-target="3">邊緣弱勢人數倍增</div>
-      <div id="s-hbutton" class="hbutton" data-target="4">解方篇</div>
+      <div class="hbutton" slot="inner-link" slot-scope="props" data-target="1" @click="hyperlink(link1,props.linkType)">住在貨櫃屋的女孩</div>
+      <div class="hbutton" slot="outer-link" slot-scope="props" data-target="2" @click="hyperlink(link2,props.linkType)">中興新村</div>
     </HeadBar>
 
     <Cover title="<b>被遺忘的孩子</b><br />我8歲，我住貨櫃屋" font-size="38" title-bottom="65" title-left="30" title-width="320" title-height="95" title-width-web="500" title-height-web="124" title-left-web="116" title-bottom-web="112" :bgWeb="bg" :bg="bg_mobile"/>
@@ -20,12 +18,29 @@
       <p><br/></p>
       <Share href="https://udn.com/upf/newmedia/2017_data/poverty/index.html" />
       <p><br></p>
-      <p><br></p>
-    <illustration/>
+			<p><br/></p>
+			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
+			<p><br/></p>
+			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
+			<p><br/></p>
+			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
+			<p><br/></p>
+			<p><br/></p>
+			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
+			<p><br/></p>
+      
+    <!--<img class="lazyload" :data-src="pic2_web" alt="">-->
+    <!--<img :src="pic2_web" alt="">-->
+
+    <img v-lazy="pic2_web" />
+
     </ContentContainer>
+
+
+    <illustration/>
     
 
-		<ContentContainer background-color="#ECEAEA">
+		<ContentContainer background-color="#ECEAEA" id="start">
 			<p>從車站到學校，沿途都是荒煙蔓草，雜草比人高，幾乎把車道掩埋。在這裡，有個小女孩住在貨櫃屋裡。</p>
 			<p><br/></p>
 			<p>她剛學會走路時，就跟著爸爸從花蓮流浪到西部偏鄉，最後在河邊橋下遊蕩，沒有居所。</p>
@@ -40,7 +55,39 @@
 			<p><br/></p>
 			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
 			<p><br/></p>
+			<p><br/></p>
+			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
+			<p><br/></p>
+			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
+			<p><br/></p>
+			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
+			<p><br/></p>
+			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
+			<p><br/></p>
+			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
+			<p><br/></p>
+			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
+			<p><br/></p>
+			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
+			<p><br/></p>
+			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
+			<p><br/></p>
+			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
+			<p><br/></p>
+			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
+			<p><br/></p>
+			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
+			<p><br/></p>
+			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
+      <p><br/></p>
+      <p><br/></p>
+
 			<ImageContain width="720" height="580" :src="pic2_mobile" :src-web="pic2_web" width-web="880" height-web="580" imgsay="小女孩剛會走路時，爸爸就帶著她到處跑，開過卡車司機、當過搬運工人，現住在貨櫃屋裡安頓。"/>
+
+
+      <!--<img v-lazy="pic2_web" />-->
+
+
 			<p><br/></p>
 			<p><br/></p>
 			<Quote text="但小女孩不會洗澡，也不會洗衣服，因為貨櫃屋沒有浴室，也沒有晾衣服的地方，渾身異味導致其他孩子排斥她。" color="#FF4612" borderColor="#B5B5B5"/>
@@ -118,6 +165,8 @@ import bg_mobile from './assets/bg_mobile.jpg'
 import pic2_web from './assets/pic2.jpg'
 import pic2_mobile from './assets/mobile/pic2.jpg'
 
+var scroll_now = 0;
+
 export default {
   name: 'app',
   data: function(){
@@ -129,11 +178,46 @@ export default {
       relate1: 'http://via.placeholder.com/480x304',
       relate2: 'http://via.placeholder.com/480x304',
       relate3: 'http://via.placeholder.com/480x304',
-      relate4: 'http://via.placeholder.com/480x304'
+      relate4: 'http://via.placeholder.com/480x304',
+      link1: "start",
+      link2: "https://nmdap.udn.com.tw/ChunghsingNewVillage/"
     }
   },
   components: {
     Indicator, HeadBar, Cover, ContentContainer, Quote, Share, ImageContain, Editor, Logo, FBComment, Relate, Foot, Illustration
+  },
+  mounted: function(){
+    window.addEventListener('scroll', this.onScroll);
+  },
+  methods: {
+    onScroll: function(){
+      scroll_now = window.pageYOffset;
+    },
+    hyperlink: function(link,type){
+      if(type==="inner"){
+            // scrolling to anchor animation
+            var scrollDuration = 500;
+            var destination = document.getElementById(link).getBoundingClientRect().top + scroll_now;
+            var scrollStep = (destination - scroll_now) / (scrollDuration / 15);
+
+            var scrollInterval = setInterval(function () {
+                scroll_now = window.pageYOffset;
+                destination = document.getElementById(link).getBoundingClientRect().top + scroll_now;
+                
+                if (scroll_now < destination) {
+                    scrollStep = (destination - scroll_now) / (scrollDuration / 15);
+                    window.scrollBy(0, scrollStep);
+                }
+                else {
+                  clearInterval(scrollInterval);
+                }    
+                scrollDuration-=15;    
+            }, 15);
+
+      }else if(type==="outer"){
+        window.open(link);
+      }
+    }
   }
 }
 </script>
