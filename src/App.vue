@@ -8,7 +8,10 @@
       <div class="hbutton" slot="outer-link" slot-scope="props" data-target="2" @click="hyperlink(link2,props.linkType)">中興新村</div>
     </HeadBar>
 
-    <Cover title="<b>被遺忘的孩子</b><br />我8歲，我住貨櫃屋" font-size="38" title-bottom="65" title-left="30" title-width="320" title-height="95" title-width-web="500" title-height-web="124" title-left-web="116" title-bottom-web="112" :bgWeb="bg" :bg="bg_mobile"/>
+    <CoverVideo :src="coverVideo_mobile" :src-web="coverVideo_web" :poster="coverVideoPoster" :poster-web="coverVideoPoster_web"></CoverVideo>
+    <!--<video id="loopingVideo" :src="coverVideo_mobile" autoplay muted loop ></video>-->
+    <!--<Cover title="<b>被遺忘的孩子</b><br />我8歲，我住貨櫃屋" font-size="38" title-bottom="65" title-left="30" title-width="320" title-height="95" title-width-web="500" title-height-web="124" title-left-web="116" title-bottom-web="112" :bgWeb="bg" :bg="bg_mobile"/>-->
+
 
     <ContentContainer background-color="#ECEAEA">
       <p><br/></p>
@@ -29,16 +32,7 @@
 			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
 			<p><br/></p>
       
-    <!--<img class="lazyload" :data-src="pic2_web" alt="">-->
-    <!--<img :src="pic2_web" alt="">-->
-
-    <img v-lazy="pic2_web" />
-
     </ContentContainer>
-
-
-    <illustration/>
-    
 
 		<ContentContainer background-color="#ECEAEA" id="start">
 			<p>從車站到學校，沿途都是荒煙蔓草，雜草比人高，幾乎把車道掩埋。在這裡，有個小女孩住在貨櫃屋裡。</p>
@@ -82,11 +76,9 @@
       <p><br/></p>
       <p><br/></p>
 
-			<ImageContain width="720" height="580" :src="pic2_mobile" :src-web="pic2_web" width-web="880" height-web="580" imgsay="小女孩剛會走路時，爸爸就帶著她到處跑，開過卡車司機、當過搬運工人，現住在貨櫃屋裡安頓。"/>
+      <LazyImageContain width="720" height="580" :src="pic2_mobile" :src-web="pic2_web" imgsay="小女孩剛會走路時，爸爸就帶著她到處跑，開過卡車司機、當過搬運工人，現住在貨櫃屋裡安頓。"/>
 
-
-      <!--<img v-lazy="pic2_web" />-->
-
+			<!--<ImageContain width="720" height="580" :src="pic2_mobile" :src-web="pic2_web" width-web="880" height-web="580" imgsay="小女孩剛會走路時，爸爸就帶著她到處跑，開過卡車司機、當過搬運工人，現住在貨櫃屋裡安頓。"/>-->
 
 			<p><br/></p>
 			<p><br/></p>
@@ -100,8 +92,6 @@
 			<p>貨櫃屋原本一無長物，只有簡陋的鐵皮搭蓋，地上鋪著一個二手床墊讓父女睡覺，「我去問心理師該怎麼做，他說要能提供給孩子一個安全的環境，來學校比在家覺得安全。現在她覺得家裡比較安全，因為學校會有功課壓力，能不能透過情感的連結，強化到在學校是受關愛，可以安全學習。」</p>
     </ContentContainer>
       
-    <!--<illustration/>-->
-
     <ContentContainer>
 			<Share href="https://udn.com/upf/newmedia/2017_data/poverty/index.html"/>
 			<Logo />
@@ -145,67 +135,85 @@
 </template>
 
 <script>
+/* components */
 import Indicator from './components/Indicator'
 import HeadBar from './components/HeadBar'
 import Cover from './components/Cover'
+import CoverVideo from './components/CoverVideo'
 import ContentContainer from './components/Content'
 import Share from './components/Share'
 import Quote from './components/Quote'
 import ImageContain from './components/ImageContain'
+import LazyImageContain from './components/LazyImageContain'
 import Editor from './components/Editor'
 import Logo from './components/Logo'
 import FBComment from './components/FBComment'
 import Relate from './components/Relate'
 import Foot from './components/Footer'
-import Illustration from './components/Illustration'
 
-
+/* images */
 import bg from './assets/bg.jpg'
 import bg_mobile from './assets/bg_mobile.jpg'
 import pic2_web from './assets/pic2.jpg'
 import pic2_mobile from './assets/mobile/pic2.jpg'
 
-var scroll_now = 0;
+/* videos */
+// import coverVideo_mobile from './assets/videos/mobile/phone_cover.mp4'
+// import coverVideo_mobile from './assets/videos/mobile/hk_cover.mp4'
+import coverVideo_mobile from './assets/videos/mobile/main.mp4'
+// import coverVideo_mobile from './assets/videos/mobile/cover-video00.mp4'
+
+import coverVideo_web from './assets/videos/pc_cover.mp4'
+import coverVideoPoster from './assets/videos/mobile/mobile.jpg'
+import coverVideoPoster_web from './assets/videos/main.jpg'
 
 export default {
   name: 'app',
   data: function(){
     return{
+      scroll_now: 0,
       bg: bg,
       bg_mobile: bg_mobile,
       pic2_web: pic2_web,
       pic2_mobile: pic2_mobile,
+      coverVideo_mobile: coverVideo_mobile,
+      coverVideo_web: coverVideo_web,
+      coverVideoPoster: coverVideoPoster,
+      coverVideoPoster_web: coverVideoPoster_web,
       relate1: 'http://via.placeholder.com/480x304',
       relate2: 'http://via.placeholder.com/480x304',
       relate3: 'http://via.placeholder.com/480x304',
       relate4: 'http://via.placeholder.com/480x304',
       link1: "start",
-      link2: "https://nmdap.udn.com.tw/ChunghsingNewVillage/"
+      link2: "./trip.html"
     }
   },
   components: {
-    Indicator, HeadBar, Cover, ContentContainer, Quote, Share, ImageContain, Editor, Logo, FBComment, Relate, Foot, Illustration
+    Indicator, HeadBar, Cover, CoverVideo, ContentContainer, Quote, Share, ImageContain, LazyImageContain, Editor, Logo, FBComment, Relate, Foot
   },
-  mounted: function(){
+  created: function(){
     window.addEventListener('scroll', this.onScroll);
   },
+  destroyed: function() {
+    window.removeEventListener('scroll', this.onScroll);
+  },  
   methods: {
     onScroll: function(){
-      scroll_now = window.pageYOffset;
+      this.scroll_now = window.pageYOffset;
     },
     hyperlink: function(link,type){
       if(type==="inner"){
             // scrolling to anchor animation
-            var scrollDuration = 500;
-            var destination = document.getElementById(link).getBoundingClientRect().top + scroll_now;
-            var scrollStep = (destination - scroll_now) / (scrollDuration / 15);
+            let scrollDuration = 500;
+            let destination = document.getElementById(link).getBoundingClientRect().top + this.scroll_now;
+            let scrollStep = (destination - this.scroll_now) / (scrollDuration / 15);
 
-            var scrollInterval = setInterval(function () {
-                scroll_now = window.pageYOffset;
-                destination = document.getElementById(link).getBoundingClientRect().top + scroll_now;
+            let scrollInterval = setInterval(function () {
+                this.scroll_now = window.pageYOffset;
+                destination = document.getElementById(link).getBoundingClientRect().top + this.scroll_now;
                 
-                if (scroll_now < destination) {
-                    scrollStep = (destination - scroll_now) / (scrollDuration / 15);
+                if (this.scroll_now < destination) {
+                    scrollStep = (destination - this.scroll_now) / (scrollDuration / 15);
                     window.scrollBy(0, scrollStep);
                 }
                 else {
@@ -230,4 +238,5 @@ export default {
   word-wrap: break-word;
   text-align: justify;
 }
+
 </style>
