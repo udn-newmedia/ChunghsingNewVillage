@@ -1,22 +1,28 @@
 <template>
 
     <div class="video-contain" id="cover-video">
-        <video preload="metadata" :src="source" :poster="videoPoster" playsinline data-target="1" muted autoplay loop></video>
+        <video preload="metadata" :src="source" :poster="videoPoster" playsinline muted autoplay loop></video>
         <div style="margin-top: -8px;" class="video-control">
-            <i class="fa fa-spinner fa-pulse video-wait" data-target="1"></i>
+            <i class="fa fa-spinner fa-pulse video-wait"></i>
         </div>
     </div>
 
 </template>
 
 <script>
+import Utils from 'udn-newmedia-utils'
+
+let title = document.title;
+let isMob = Utils.detectMob(10);
+let platform = (isMob == true) ? 'Mob' : 'PC'
+
 export default {
   name: 'covervideo',
-  props: ['src', 'srcWeb', 'poster', 'posterWeb'],
+  props: ['src', 'srcWeb', 'poster', 'posterWeb','dataTarget'],
   data: function() {
       return {
           progress: 0,
-          currentTime: 0
+          getProgressTimer: null
       }
   },
   computed: {
@@ -58,19 +64,62 @@ export default {
         spinner.style.opacity = "0";
     };
 
-    video.onplay = function(){
-        console.log('play');
-    };
+    video.onplay = this.getPlayingProgress()
 
     video.onpause = function(){
-        console.log('pause');
+        // console.log('pause');
+        if(this.getProgressTimer) {
+            clearInterval(this.getProgressTimer);
+            this.getProgressTimer = null;
+        }
     }
   },
   methods: {
     onScroll: function() {
-        console.log('abc')
+        let scroll_now = window.pageYOffset;
+        let covervideo = document.querySelector('VIDEO');
+
+        if(scroll_now > (this.$el.offsetTop + window.innerHeight - 200)){
+            if(!covervideo.paused){
+                covervideo.pause();
+            }
+        } else if(scroll_now > 0 && scroll_now < (this.$el.offsetTop + window.innerHeight - 200)){
+            if (covervideo.paused) {
+                covervideo.play();
+            }
+        }
     },
-    gaSender: function() {
+    getPlayingProgress: function(){
+      
+        let video = document.querySelector('VIDEO');
+        let self = this;
+
+        if (this.getProgressTimer == null) {
+            this.getProgressTimer = setInterval(function() {
+                let curTime = video.currentTime;
+                let percent = curTime / video.duration * 100;
+                // let temp = currentTime / video.duration * 100;
+
+                // Hiding playing button
+                // if (temp > 0.6) {
+                //     $('.video-play[data-target="' + id + '"]').css("opacity", 0);
+                // }
+
+                //Send GA every 5 seconds
+                if (Math.floor(curTime / 5) > self.progress) {
+                    self.progress = Math.floor(curTime / 5)
+
+                    console.log(self.$options.name +' : '+ self.progress*5);
+
+                    // ga("send", {
+                    //     "hitType": "event",
+                    //     "eventCategory": "movie play",
+                    //     "eventAction": "play",
+                    //     "eventLabel": "[" + platform + "] [" + title + "] [movie " + self.dataTarget + " play " + (self.progress * 5) + "seconds]"
+                    // });
+                }
+            }, 600);
+        }
     }
   }
 }

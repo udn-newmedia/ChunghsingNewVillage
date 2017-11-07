@@ -12,30 +12,41 @@ export default {
 }
 </script>
 
-<style scoped>
-.quote-contain {
-    width: 100%;
-    display: table;
-    font-family: "PMingLiU";
-    font-weight: bolder;
-    font-size: 32px;
-    min-height: 125px;
-    color: #888888;
-    padding: 15px 0;
-    border-top: dotted 1px #DCDDDD;
-    border-bottom: dotted 1px #DCDDDD;
-    position: relative;
-    letter-spacing: -1px;
-}
-
-.quote-text {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-@media screen and (max-width: 767px) {
+<style scoped> 
     .quote-contain {
+        position: relative;
+        font-family: "PMingLiU";
+        padding: 10px 20px;
+        margin: 0 0 20px;
         font-size: 26px;
+        font-weight: bolder;
+        border-left: 5px solid #eee;
+        letter-spacing: -1px;
     }
-}
+
+    .quote-contain::before {
+        height: 3px;
+        background: #FFB93E;
+        width: 90px;
+        margin: 0 auto 50px auto;
+        content: ' ';
+        display: block;
+    }
+
+    .quote-contain::after {
+        height: 3px;
+        background: #FFB93E;
+        width: 90px;
+        margin: 60px auto 0 auto;
+        content: ' ';
+        display: block;
+    }
+
+    .quote-ref {
+        position: absolute;
+        font-size: 17px;
+        color: gray;
+        bottom: 30px;
+        right: 0;
+    }
 </style>
