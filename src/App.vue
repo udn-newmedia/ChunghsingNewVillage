@@ -129,7 +129,7 @@
       <p>然而接連歷經凍省和九二一大震兩次衝擊，公務員漸漸離開，林松期所熟悉、熱鬧的中興新村也緩緩睡去。曾有人提出中興大學來此設立分部，讓林松期興奮不已，他認為，中興大學若來了，人氣應該也會回來，然而最後中興新村沒走上大學城一途。</p>
 			<p><br/></p>
 			<p><br/></p>
-			<Quote text="以前光華路滿滿的人和車，現在拿機關槍來掃射，也打不到人了。" color="#FFB93E" borderColor="#FFB93E" refer="中心文具行老闆 林松期"/>
+			<Quote text="以前光華路滿滿的人和車，現在拿機關槍來掃射，也打不到人了。" color="#FFB93E" borderColor="#FFB93E" refer="─中心文具行老闆 林松期"/>
 			<p><br/></p>
 			<p><br/></p>
       <p>要怎麼找回中興新村的榮景？林松期好希望一個學校或公家機關「搬回來」，在他記憶裡，公務員是村子的血液，凍省後公務員漸漸離開，村子抽離了血液怎還會有活力？</p>
@@ -166,11 +166,157 @@
       <p>在交通並不發達的時代，省府員工有令人咋舌的福利「省府交通車」，10多部的大客車，每天上午、中午、傍晚，都在各個路口巡迴設線接送員工上下班。而每周日一早，更安排數輛省府交通車定點接送省府員工子弟免費搭乘，赴台中市往返出遊消費，羨煞附近鄉鎮的民眾，員工若是有婚喪喜慶需要用車，也可以申請自費派車。</p>
 			<p><br/></p>
 			<p><br/></p>
-			<Quote text="對我來說，凍省感受最深的是，學生出去比賽再也沒車可坐了。" color="#FFB93E" borderColor="#FFB93E" refer="光榮國小退休教師 丁志成"/>
+			<Quote text="對我來說，凍省感受最深的是，學生出去比賽再也沒車可坐了。" color="#FFB93E" borderColor="#FFB93E" refer="─光榮國小退休教師 丁志成"/>
 			<p><br/></p>
 			<p><br/></p>
       <p>談到中興新村「國中之國」的福利，丁志成有感而發地表示，學校學生每年遇到要打預防針時，都是在省府的安排下，優先進行注射，不像外鄉鎮的學校還要申請排隊；另由於村內自成的下水道、汙水處理及自來水廠系統，中興新村是全省第一個在自來水加氟的試辦區，當時成為全省蛀牙最少的地區。</p>      
-      
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img5" :src-web="img5_web" imgsay="中州科大教授鍾起岱曾是宋楚瑜的文膽。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>
+      <h2>精省，迎來人生青天霹靂</h2>
+      <p><br/></p>      
+      <p>鍾起岱原本是省府經研會副主委，精省把他的人生布局都打壞了。鍾說，他自幼接受傳統愛國教育，一心想要報效國家，歷經連戰、宋楚瑜二位省主席，他幫省府打拚二十年，因為精省成了一場空，他也失去任公職繼續爬升的機會。</p>
+			<p><br/></p>
+      <p>宋楚瑜上任後，鍾起岱擔任編譯室主任，幫宋主席寫文稿。後來研考會和經建會合併成經研會，鍾起岱是副主委，成為宋楚瑜的重要文膽，經歷最繁華的「大省府時代」。</p>
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img6" :src-web="img6_web" imgsay="台灣省政府大樓，見證了中興新村的興衰。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>
+      <p>在鍾起岱的印象裡，宋是一個「很認真、對同仁很好、國際觀察深刻」的人，當時鍾起岱第一次寫稿給宋，心裡有些緊張，宋楚瑜默默看完，說「起岱啊，你的文筆很好，但以後請你每天給你老婆看稿，問問她看得懂嗎？」鍾起岱才恍然大悟，文章是寫給人看的，要更平易近人，宋點醒他這個道理。</p>
+			<p><br/></p>
+      <p>當時台灣的一些大事，如賀伯風災、彰化四信擠兌事件，省新聞處長黃義交緋聞案等，省府幕僚作業鍾起岱都曾參與，算是宋的核心了，因此精省後，宋省長請辭，鍾起岱額頭宛如繫上布條，寫著「宋派」二個字，他便也識趣離開。</p>
+			<p><br/></p>
+      <p>九二一地震後，行政院在中興新村成立「九二一重建委員會」，執行長黃榮村找鍾起岱擔任計畫處長，黃告訴鍾起岱，「我了解你的背景，重建要大家一起來，這和政黨無關」。黃榮村出任教育部長後，鍾起岱回任省政資料館主任。當時他被交付一個任務，就是勸說同仁離職。有同仁告訴鍾，「你要我們調離，那你自己要不要走」。</p>      
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img7" :src-web="img7_web" imgsay="省長辦公室裡掛台灣省政府的旗幟。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>
+      <p>鍾起岱這才大夢初醒。一星期後，他申請退休，告別省政府。走出省府大門，鐘起岱望著多雲的天空，跟老婆說：「我的公職生涯結束了。」</p>
+      <p><br/></p>
+			<p><br/></p>
+			<Quote text="當時省府員工 (看精省) 都覺得宋一定會贏，他能凝聚人心。" color="#FFB93E" borderColor="#FFB93E" refer="─中州科大觀光與休閒管理系主任 鍾起岱"/>
+			<p><br/></p>
+			<p><br/></p>
+      <p>鍾起岱說後來他寫成一本40萬字的大作《中興新村學》，研究中興新村的自然與水文、社會與人文、建村故事、文化景觀、歷史建築、宗教生活，並和中興高中校長王延煌合開了一門「中興學」課程，帶學子認識這個他們天天來上課，但可能不甚了解的村子歷史。</p>
+			<p><br/></p>
+      <p>鍾起岱說，精省一定是政治因素。精省的當下，他覺得是一個錯誤，他沒想到的是，過了二十年，精省真已「精到一滴不剩」，現在來評論精省功過，已無意義。</p>      
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img8" :src-web="img8_web" imgsay="文史工作者陳樂人致力於保存中興新村歷史記憶。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>   
+      <h2>精省，建築寶庫漸被遺忘</h2>         
+			<p><br/></p>   
+      <p>陳樂人是中興新村第二代居民。小時候常聽別人羨慕住中興超棒，長大收到存證信函，才領悟到「什麼都不是自己的，有什麼好棒」。父逝後，收到那紙存證信函要求歸還眷舍，才驚覺「這原來不是家」，是公家財產；這也意外成為陳對中興情感再延伸的轉捩點。</p>      
+			<p><br/></p>   
+      <p>陳父從軍退休轉後文職進入省府，正值疾呼「反攻大陸，建設台灣」的民國60年，陳家趕上最後一批眷舍分配，住進中興新村。</p>
+			<p><br/></p>   
+      <p>「『老蔣』就是中興新村當年的信仰。」陳指出，中興會堂猶如農村中的廟宇，操場就是廟埕，每逢國慶日、光復節和蔣公誕辰等10月慶典，辦運動會、園遊會或放煙火，規模就像農村趕集大拜拜，如今已不復見。</p>
+    </ContentContainer>
+
+		<FixedBackground :src="fixBg4" :src-web="fixBg4_web" text="中興新村有不少老舊宿舍久未整理，夕陽照在老舊的路牌上。記者鄭清元／攝影"/> 
+
+    <ContentContainer background-color="#ECEAEA">
+      <p><br/></p>
+      <p>陳樂人說，外面的人都稱中興為「省府特區」，真的無法反駁，這裡確實有專屬交通車、垃圾車，孩子被指派讀中興第一或第二國校；只要管好自己院子裡的事，樹葉、垃圾堆在外面就有人掃，一切就是那麼自然。</p>
+      <p><br/></p>
+      <p>陳提到，入住當年是「中興新市鎮」最理想原型，省府引進「新市鎮」的現代建築和概念，減少不必要屋飾降低成本，造出能容納更多人且符合民生的空間，居住環境是國內僅有。</p>    
+			<p><br/></p>
+      <p>60年代後「大省府時代」來臨，理想性卻沒了。</p>      
+			<p><br/></p>
+      <p>中興新村堪稱「建築界的寶庫」，陳提到，當年許多知名建築師參與中興新村戰後第一代現代建築的規劃設計，像是擁雙屋面的紅瓦樓房就是出自「台灣建築設計國寶」王大閎之手。</p>      
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img9" :src-web="img9_web" imgsay="台灣新生報中興新村辦事處舊址，是名建築師修澤蘭的作品，現為唱片餐廳。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>
+      <p>其中，還有中山樓修建者「台灣第一女建築師」修澤蘭，曾設計台北圓山飯店和中正紀念堂等知名建築的楊卓城，虞曰鎮、關頌聲、吳文熹、張昌華、胡兆煇、吳梅興、倪世槐等產學界的代表性人物。</p>
+			<p><br/></p>
+      <p>陳說，不少建築學教授告訴學生，「中興新村是很棒的範本」，但沒有文化單位願意去重視，也不去談這村子的建築價值；60年了，不論怎麼改朝換代，政府始終選擇忽略中興新村的一切。</p>
+      <p><br/></p>
+			<p><br/></p>
+			<Quote text="中興新村建築的價值，已被政府忽略了60年。" color="#FFB93E" borderColor="#FFB93E" refer="─文史工作者 陳樂人"/>
+
+    </ContentContainer>
+
+    <ContentContainer background-color="#ECEAEA">
+      <h1><b>繁榮與沒落</b></h1>
+      <p><br/></p>
+      <p><br/></p>
+      <YoutubeVideo :dataSrc="video_link1"></YoutubeVideo>
+      <p><br/></p>
+      <p><br/></p>
+      <h2>精省20年大事紀</h2>
+      <p><br/></p>
+      <History></History>
+      <p><br/></p>
+      <p><br/></p>
+      <h2>利多政策喚不回人口</h2>
+      <p><br/></p>
+      <h2>活化，扮演原來角色就好</h2>
+      <p><br/></p>
+      <p>前總統馬英九宣示讓中興新村發展成文創及高等研究園區，居民憂心原有建築遭損，為讓開發跟保存等達到平衡，曾提報全區聚落保存，最終通過的卻是文化景觀，「逾2000多戶組成怎會不是聚落」。</p>
+      <p><br/></p>
+      <p>陳樂人說，若要中興文化風華再現，就用文資保存角度進駐，後來卻是想將經濟和研究開發種進這片土地，但這是兩碼子事；起初強調兩者能並行，最後雙方都沒堅持住，部分眷舍遭拆，一切回到原點。</p>
+      <p><br/></p>
+      <p>「送走魔鬼卻迎來怪物。」中科管理局在高等園區的失敗，讓這爛攤子轉交至國有財產署，但從目前辦理的公聽會來看，一票人又在爛蘋果中找看起來稍好一點的，幾乎可預見再次失敗。</p>
+      <p><br/></p>
+      <p>時下文創正夯，陳樂人卻不樂見其隨意進駐，他指出，文創可行，但應以中興新村做為中心去發揚，只是政府一接手，這理想就沒了，公部門短視近利，盼村子熱度迅速提升，不是從外地引進文創，就是別的軍眷村翻版，之前辦「駐村藝術家」，畫家進來畫畫，和村民沒互動，也是給人奇怪的違和感，最後無疾而終。</p>
+      <p><br/></p>
+      <p>陳樂人說，這60年來，村內學校、市場或居民等從未因精省或其他政策而停擺，都是正常運作，所以喊「活化中興」、硬塞進各種元素成了四不像，讓他感覺不是滋味，其實扮好原來的角色就好。</p>
+      <p><br/></p>
+			<p><br/></p>
+			<Quote text="現在是中興新村最美的時候，推動現地博物館便是「天下無敵」。" color="#FFB93E" borderColor="#FFB93E" refer="─文史工作者 陳樂人"/>
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img10" :src-web="img10_web" imgsay="中興新村有不少老宿舍久未整理。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>
+      <p>但這不代表現有逾2400戶平房都該原樣保存，陳認為，中興新村的老建築，是當年富有實驗性和冒險熱情的建築師們，想像「未來」所打造的生活空間，轉瞬間60年過去，「未來」變成現在，中興新村可延續這種精神，部分眷舍空間挪來延續當年的「實驗性冒險」，就像村子是國內最早將汙、雨水分流設置下水道的聚落，創新容納建築師對未來生活的願景。</p>
+			<p><br/></p>
+      <p>陳樂人盼家鄉成為「現地博物館」，讓中興新村永遠看得見「過去、現在、未來」三種建築並存。他說，村內從人孔蓋、行道樹、建築、操場和看台等，都深具價值，不只是室內的冰冷展場，他不定時舉辦「中興小旅行」，帶眾人瞭解這龐大、卻鮮為人知的「博物館」。</p>
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img11" :src-web="img11_web" imgsay="作家李展平在中興新村住了30年。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>      
+      <h2>感慨，各種計畫各種結束</h2>
+      <p><br/></p>
+      <p>中興新村60年前是一片墓地，因緣際會成為省府所在而冠蓋雲集，如今凍省20年，雖然政府提出許多規畫，但中興新村如遲暮美人鉛華盡退，詩人李展平說，中興新村的快速凋零，對照20年前的繁華，更讓中興人有「青絲怕見白頭」的感慨。</p>
+      <p><br/></p>
+      <p>李展平在中興新村住了30年，妻子黃幼杏是曾是省府主計處股長，86年凍省時，省府許多單位被廢除，政府鼓勵員工退休，或是降調到其他縣市政府服務，讓許多員工生涯被迫改變。李展平因為在台灣省文獻會擔任編纂，後來被劃歸國史館之下，成為台灣文獻館，至少不用擔心得退休或是搬離中興新村。</p>
+    </ContentContainer>
+
+		<FixedBackground :src="fixBg5" :src-web="fixBg5_web" text="中興新村有濃濃的眷村味。記者鄭清元／攝影"/> 
+
+    <ContentContainer background-color="#ECEAEA">
+      <p><br/></p>
+      <p>中興新村居民的光榮感，在宋楚瑜擔任省長期間達到頂點，宋省長的高知名度，更讓省府如同小內閣。李展平說，沒想到宋楚瑜功高震主，為了拔除他的影響力，政府決定精省，卻讓省府的員工跟著遭殃。</p>
+      <p><br/></p>
+      <p>凍省之前，省府員工曾經發動抗爭，希望能夠挽救精省的命運。但當時政府強調精省之後，可以為台灣增加五千億元經費用於地方建設，因此，在多數民意支持下，省府還是被精簡，也注定中興新村日漸窮困的命運。結果這五千億元如石沉大海，完全看不出建設在哪裡，反而是中興新村日漸破落，每況愈下，讓他覺得所謂節省幾千億根本是「唬爛語言」。</p>    
+      <p><br/></p>
+      <p>他說，這20年來，政府為了安撫中興新村居民，曾提出不同的計畫，有縣長候選人說，要把台中捷運延長到中興新村，成為台中都會的後花園。也曾有藝術家駐村，營造為台灣的普羅旺斯，但不到兩三年就以經費不足結束。「藍綠都一樣，中興沒希望」。</p>
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img12" :src-web="img12_web" imgsay="中興新村的林蔭綠地是一大特色。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>      
+      <p>李展平說，中興新村有的員工宿舍、職務宿舍，居民都沒產權，因此，隨著老居民搬遷或過世，這些房舍又繳回政府。但省府和中科都無力管理，讓宿舍荒廢的狀況更嚴重，內部許多五金材料都被小偷搬光。他曾經帶愛好攝影的朋友來拍攝，結果友人看到宿舍如此破敗，不好意思地說「沒地方取景」，讓他當下很想找個洞鑽進去。</p>
+      <p><br/></p>
+			<p><br/></p>
+			<Quote text="一個虛幻的城市、一個悲情的城市，綠意只能讓遊客短暫停留，剖開裡面是蛀蟲和小偷。" color="#FFB93E" borderColor="#FFB93E" refer="─作家 李展平"/>
+      <p><br/></p>
+			<p><br/></p>
+      <p>中興新村空有花園城市美名，已經是金玉其外敗絮其內，夜晚一到更空空蕩蕩變的像鬼域。希望政府能對這些有歷史意義的老建築，能夠妥善保留，或是與企業合作，作為旅遊景點，讓國內外遊客住宿，維持中興新村的面貌。</p>
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img13" :src-web="img13_web" imgsay="中興新村榮景促進會理事長史祝賢。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>  
     </ContentContainer>
 
     <ContentContainer>
@@ -234,6 +380,8 @@ import Relate from './components/Relate'
 import Foot from './components/Footer'
 import FixedBackground from './components/FixedBackground.vue'
 import UrbanDesign from './components/UrbanDesign.vue'
+import History from './components/History.vue'
+
 
 /* images */
 import bg from './assets/bg.jpg'
@@ -248,12 +396,34 @@ import img3 from './assets/mobile/b2.jpg'
 import img3_web from './assets/b2.jpg'
 import img4 from './assets/mobile/b21.jpg'
 import img4_web from './assets/b21.jpg'
+import img5 from './assets/mobile/b3.jpg'
+import img5_web from './assets/b3.jpg'
+import img6 from './assets/mobile/b31.jpg'
+import img6_web from './assets/b31.jpg'
+import img7 from './assets/mobile/b32.jpg'
+import img7_web from './assets/b32.jpg'
+import img8 from './assets/mobile/b4.jpg'
+import img8_web from './assets/b4.jpg'
+import img9 from './assets/mobile/b42.jpg'
+import img9_web from './assets/b42.jpg'
+import img10 from './assets/mobile/b45.jpg'
+import img10_web from './assets/b45.jpg'
+import img11 from './assets/mobile/c1.jpg'
+import img11_web from './assets/c1.jpg'
+import img12 from './assets/mobile/c12.jpg'
+import img12_web from './assets/c12.jpg'
+import img13 from './assets/mobile/c2.jpg'
+import img13_web from './assets/c2.jpg'
 import fixBg1_web from './assets/a1.jpg'
 import fixBg1 from './assets/mobile/a1.jpg'
 import fixBg2_web from './assets/b1.jpg'
 import fixBg2 from './assets/mobile/b1.jpg'
 import fixBg3_web from './assets/b22.jpg'
 import fixBg3 from './assets/mobile/b22.jpg'
+import fixBg4_web from './assets/b41.jpg'
+import fixBg4 from './assets/mobile/b41.jpg'
+import fixBg5_web from './assets/c11.jpg'
+import fixBg5 from './assets/mobile/c11.jpg'
 import map1 from './assets/mobile/map1.jpg'
 import map2 from './assets/mobile/map2.jpg'
 import map1_web from './assets/map1.jpg'
@@ -284,6 +454,24 @@ export default {
       img3_web: img3_web,
       img4: img4,
       img4_web: img4_web,
+      img5: img5,
+      img5_web: img5_web,
+      img6: img6,
+      img6_web: img6_web,
+      img7: img7,
+      img7_web: img7_web,
+      img8: img8,
+      img8_web: img8_web,
+      img9: img9,
+      img9_web: img9_web,
+      img10: img10,
+      img10_web: img10_web,
+      img11: img11,
+      img11_web: img11_web,
+      img12: img12,
+      img12_web: img12_web,
+      img13: img13,
+      img13_web: img13_web,
       coverVideo_mobile: coverVideo_mobile,
       coverVideo_web: coverVideo_web,
       coverVideoPoster: coverVideoPoster,
@@ -294,6 +482,10 @@ export default {
       fixBg2: fixBg2,
       fixBg3_web: fixBg3_web,
       fixBg3: fixBg3,
+      fixBg4_web: fixBg4_web,
+      fixBg4: fixBg4,
+      fixBg5_web: fixBg5_web,
+      fixBg5: fixBg5,
       map1: map1,
       map2: map2,
       map1_web: map1_web,
@@ -308,7 +500,7 @@ export default {
     }
   },
   components: {
-    Indicator, HeadBar, Cover, CoverVideo, YoutubeVideo, ContentContainer, Quote, Share, ImageContain, LazyImageContain, Editor, Logo, FBComment, Relate, Foot, FixedBackground, UrbanDesign
+    Indicator, HeadBar, Cover, CoverVideo, YoutubeVideo, ContentContainer, Quote, Share, ImageContain, LazyImageContain, Editor, Logo, FBComment, Relate, Foot, FixedBackground, UrbanDesign, History
   },
   created: function(){
     window.addEventListener('scroll', this.onScroll);
