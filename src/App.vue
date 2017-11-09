@@ -13,6 +13,8 @@
 
     <ContentContainer background-color="#ECEAEA">
       <p><br/></p>
+      <LineChart></LineChart>
+      <p><br/></p>
       <p>20年來，台灣邊緣弱勢兒童增加一倍。《聯合報》找到8歲住在貨櫃屋的女孩、找到住在破舊髒亂沒熱水澡可洗的10歲男孩，但我們不想一次性消費個案故事，也不是給予捐款就能幫孩子翻轉命運。我們想邀請讀者探究為何這麼多孩子落在社會安全網之外？理解社會制度出了何種問題，進一步督促政府補好安全網。</p>
       <p><br/></p>
       <Share href="https://udn.com/upf/newmedia/2017_data/poverty/index.html" />
@@ -257,6 +259,8 @@
       <p><br/></p>
       <h2>利多政策喚不回人口</h2>
       <p><br/></p>
+      <!--<LineChart></LineChart>-->
+      <p><br/></p>      
       <h2>活化，扮演原來角色就好</h2>
       <p><br/></p>
       <p>前總統馬英九宣示讓中興新村發展成文創及高等研究園區，居民憂心原有建築遭損，為讓開發跟保存等達到平衡，曾提報全區聚落保存，最終通過的卻是文化景觀，「逾2000多戶組成怎會不是聚落」。</p>
@@ -317,6 +321,50 @@
       <LazyImageContain width="450" height="450" :src="img13" :src-web="img13_web" imgsay="中興新村榮景促進會理事長史祝賢。記者鄭清元／攝影"/>
 			<p><br/></p>
 			<p><br/></p>  
+      <h2>棘手，牽涉太廣各自為政</h2>
+      <p><br/></p>
+      <p>中興新村榮景促進會理事長史祝賢（冬冬），是光華里前里長，對於地方經濟和人口的繁華興衰，全都看在眼裡，他說，20年前在他任內居民還有逾2000人，隨公務員遷出，退休人員病逝，如今僅剩不到800人。他曾辦報「大中興報導」，希望喚起政府對村子的重視，結果政府毫無反應，報紙8期停刊，換來某高官一句「冬冬不要再鬧了」。</p>
+      <p><br/></p>
+      <p>在馬政府任內，前行政院長江宜樺也曾提出將中興新村交給文化部管轄，卻被已「量體太大」被打回票，畢竟2000多戶若以文資修建保存，所費不貲，誰願意承接。中科很努力想活化村子，但不懂文資法，窒礙難行，如今中科又將中興文史住宅區脫手，移交給國有財產署管理。</p>
+    </ContentContainer>
+
+		<FixedBackground :src="fixBg6" :src-web="fixBg6_web" text="如今的中興新村冷清許多，第一市場看來有些蕭條。記者鄭清元／攝影"/> 
+
+    <ContentContainer background-color="#ECEAEA">
+      <p><br/></p>
+			<p><br/></p>
+			<Quote text="流水的官兵，鐵打的營房，官員一個一個換，中興新村依然被遺忘。" color="#FFB93E" borderColor="#FFB93E" refer="─中興新村榮景促進會理事長 史祝賢"/>
+      <p><br/></p>
+			<p><br/></p>
+      <p>史說，國產署想以ROT促使民間力量進駐，但「大包」單年綠美化經費少說700萬元，清理水溝更要上千萬元，若要分批外包中興會堂或小巨蛋，重新開放前須修建，後續維護也是一大筆錢，業者在商言商，因此想找到人接，沒那麼簡單。</p>
+			<p><br/></p>
+      <p>史祝賢認為，在中興新村管轄權被中科和國產署一分為二後，最讓居民和文史工作者關注的就是眷舍住宅群；而改善的最好方法就是讓人住進來。</p>
+			<p><br/></p>
+      <p>他指出，希望人住進來最好的方法就是不用修，但租金低廉，但有規範打契約可自行修繕，但不損及主體建築或外觀等，而有人員入住才有在地消費；以2000空戶試算，每戶住2人就帶進4000人，對餐飲和商業有幫助。</p>
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img14" :src-web="img14_web" imgsay="中興兒童公園吸引許多小朋友遊玩。記者鄭清元／攝影"/>
+			<p><br/></p>
+			<p><br/></p>  
+      <p>政府甚至可適當修建部分單身宿舍，鎖定特殊短期租賃客群，像是能做為做學生宿舍、背包客棧，甚至供全台都市計畫、建築或景觀科系等到中興新村觀摩，他們來中興就有地方住，中興會堂也有NGO教室可使用。</p>
+			<p><br/></p>  
+      <p>史祝賢說，中興新村問題之所以棘手，就是因為牽涉太廣，文化資產、科技研究、公務機關彙集，像北區有省府、役政署、經濟部所屬單位和將升格農業部的農委會，南區由中科掌科技研究和文創，中區就是國產署的文史眷舍。</p>
+			<p><br/></p>  
+      <p>而這些單位同樣在村內會有公共設施維護和使用上的問題，但長官們層級位階雷同，且各自為政，現在省主席的權力「可能比里長還小」，就需要更高一層的官員協助協調，因此建議政府應派駐專門政務委員，跨部會統籌協商，在中興新村的政策才有順利推行的可能。</p>
+      <p><br/></p>
+			<p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img15" :src-web="img15_web" imgsay="中台灣創新園區對中興新村的復興使不上力。記者黃仲裕／攝影"/>
+			<p><br/></p>
+			<p><br/></p>  
+      <h2>無奈，管理複雜開發不易</h2>
+      <p><br/></p>
+      <p>中科在民國98年奉行政院之命承接中興新村的政策發展，然而100年環評通過，其結論是除了文創產業之外，不得量產，只能研發，和傳統科學園區的概念可說完全相背。</p>
+      <p><br/></p>
+      <p>中科副局長施文芳表示，101年時南投縣根據文資審議，公告中興新村90%的面積（約234公頃）規畫做文化景觀區，中興新村周遭本已欠缺科技人才，加上不能量產只能研發，沒有完整的生態鏈，開發起來的確不容易。</p>
+      <p><br/></p>
+      <p>村子管理也不符合中科過去的專業，中興新村除了既有的公家機關，村子裡有體育館、醫院、殯儀館、游泳池、高爾夫球場等場館，中科缺乏這部分的管理經驗；最困擾的是宿舍群，兩千多戶中一千五百多戶尚有人居，管理起來相當複雜。</p>
+      <p><br/></p>
+      <p>施文芳表示，南核心區持續招商，成績其實不錯，工研院、百佳泰、可速姆進駐、正瀚生技也在建廠，周圍的綠意讓南投市、草屯的居民也很願意來此活動。他相信北、中區在國產署接手後會找到最適合的管理方法。施文芳也建議：尋求最大公約數、和文化資產共存共榮、引進民間的專業，文資若要可長可久，也不能完全排斥工程的技術。</p>      
     </ContentContainer>
 
     <ContentContainer>
@@ -324,12 +372,10 @@
 			<Logo />
 			<p><br/></p>
 			<Editor>
-				<div>製作人、文字：林秀姿</div>
-				<div>視覺設計、影音：許瑋琳</div>
-				<div>攝影：林伯東、劉學聖、侯永全</div>
-				<div>網頁製作：鄭偉廷</div>
-				<div>監製：董谷音、蔡幸怡</div>
-				<div>2017.10.03</div>
+				<div>採訪：劉重善、林新輝、程嘉文、鄭朝陽、賈寶楠、江良誠、黑中亮、張家樂、賴香珊、毛鼎言、陳俊傑</div>
+				<div>影音：蔣宗裕、何純輝、王騰毅</div>
+				<div>視覺設計：楊國長、蘇韋豪</div>
+				<div>網頁製作：方泰鈞</div>
 			</Editor>
 			<p><br/></p>
       
@@ -381,7 +427,7 @@ import Foot from './components/Footer'
 import FixedBackground from './components/FixedBackground.vue'
 import UrbanDesign from './components/UrbanDesign.vue'
 import History from './components/History.vue'
-
+import LineChart from './components/LineChart.vue'
 
 /* images */
 import bg from './assets/bg.jpg'
@@ -414,6 +460,10 @@ import img12 from './assets/mobile/c12.jpg'
 import img12_web from './assets/c12.jpg'
 import img13 from './assets/mobile/c2.jpg'
 import img13_web from './assets/c2.jpg'
+import img14 from './assets/mobile/c22.jpg'
+import img14_web from './assets/c22.jpg'
+import img15 from './assets/mobile/c3.jpg'
+import img15_web from './assets/c3.jpg'
 import fixBg1_web from './assets/a1.jpg'
 import fixBg1 from './assets/mobile/a1.jpg'
 import fixBg2_web from './assets/b1.jpg'
@@ -424,6 +474,8 @@ import fixBg4_web from './assets/b41.jpg'
 import fixBg4 from './assets/mobile/b41.jpg'
 import fixBg5_web from './assets/c11.jpg'
 import fixBg5 from './assets/mobile/c11.jpg'
+import fixBg6_web from './assets/c21.jpg'
+import fixBg6 from './assets/mobile/c21.jpg'
 import map1 from './assets/mobile/map1.jpg'
 import map2 from './assets/mobile/map2.jpg'
 import map1_web from './assets/map1.jpg'
@@ -472,6 +524,10 @@ export default {
       img12_web: img12_web,
       img13: img13,
       img13_web: img13_web,
+      img14: img14,
+      img14_web: img14_web,
+      img15: img15,
+      img15_web: img15_web,
       coverVideo_mobile: coverVideo_mobile,
       coverVideo_web: coverVideo_web,
       coverVideoPoster: coverVideoPoster,
@@ -486,6 +542,8 @@ export default {
       fixBg4: fixBg4,
       fixBg5_web: fixBg5_web,
       fixBg5: fixBg5,
+      fixBg6_web: fixBg6_web,
+      fixBg6: fixBg6,
       map1: map1,
       map2: map2,
       map1_web: map1_web,
@@ -500,7 +558,7 @@ export default {
     }
   },
   components: {
-    Indicator, HeadBar, Cover, CoverVideo, YoutubeVideo, ContentContainer, Quote, Share, ImageContain, LazyImageContain, Editor, Logo, FBComment, Relate, Foot, FixedBackground, UrbanDesign, History
+    Indicator, HeadBar, Cover, CoverVideo, YoutubeVideo, ContentContainer, Quote, Share, ImageContain, LazyImageContain, Editor, Logo, FBComment, Relate, Foot, FixedBackground, UrbanDesign, History, LineChart
   },
   created: function(){
     window.addEventListener('scroll', this.onScroll);
