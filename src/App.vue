@@ -4,12 +4,15 @@
     <Indicator color="#FF4612"/>
 
     <HeadBar>
-      <div class="hbutton" slot="inner-link" slot-scope="props" data-target="1" @click="hyperlink(link1,props.linkType)">空前絕後宋省長</div>
-      <div class="hbutton" slot="outer-link" slot-scope="props" data-target="2" @click="hyperlink(link2,props.linkType)">來去中興新村</div>
+      <div class="hbutton" slot="inner-link1" slot-scope="props" data-target="1" @click="hyperlink(link1,props.linkType)">空前絕後宋省長</div>
+      <div class="hbutton" slot="inner-link2" slot-scope="props" data-target="2" @click="hyperlink(link2,props.linkType)">繁榮與沒落</div>
+      <div class="hbutton" slot="inner-link3" slot-scope="props" data-target="3" @click="hyperlink(link3,props.linkType)">出路與困局</div>
+      <div class="hbutton" slot="outer-link" slot-scope="props" data-target="4" @click="hyperlink(link4,props.linkType)">來去中興新村</div>
     </HeadBar>
 
     <CoverVideo :src="coverVideo_mobile" :src-web="coverVideo_web" :poster="coverVideoPoster" :poster-web="coverVideoPoster_web" :data-target="1"></CoverVideo>
     <!--<Cover title="<b>被遺忘的孩子</b><br />我8歲，我住貨櫃屋" font-size="38" title-bottom="65" title-left="30" title-width="320" title-height="95" title-width-web="500" title-height-web="124" title-left-web="116" title-bottom-web="112" :bgWeb="bg" :bg="bg_mobile"/>-->
+    <h1 style="display: none;">中興新村 消失的國中國</h1>
 
     <ContentContainer background-color="#ECEAEA">
       <p><br/></p>
@@ -29,7 +32,7 @@
 			<p><br/></p>
     </ContentContainer>
 
-		<ContentContainer background-color="#ECEAEA" id="start">
+		<ContentContainer background-color="#ECEAEA" id="anchor1">
       <h1><b>空前絕後宋省長</b></h1>
       <p><br/></p>
       <p><br/></p>
@@ -67,7 +70,10 @@
 			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
 			<p><br/></p>
 			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
-			<p><br/></p>
+		</ContentContainer>
+    <PhotoComparison :src-new="compare1_new" :src-old="compare1_old" text="中興新村牌樓。記者鄭清元／攝影（老照片翻攝自「綠情懷舊專輯」）"></PhotoComparison>
+    <ContentContainer>
+      <p><br/></p>
 			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
 			<p><br/></p>
 			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
@@ -91,7 +97,7 @@
     </ContentContainer>
 
 
-    <ContentContainer background-color="#ECEAEA">
+    <ContentContainer background-color="#ECEAEA" id="anchor2">
       <h1><b>繁榮與沒落</b></h1>
       <p><br/></p>
       <p><br/></p>
@@ -243,8 +249,8 @@
 
     </ContentContainer>
 
-    <ContentContainer background-color="#ECEAEA">
-      <h1><b>繁榮與沒落</b></h1>
+    <ContentContainer background-color="#ECEAEA" id="anchor3">
+      <h1><b>出路與困局</b></h1>
       <p><br/></p>
       <p><br/></p>
       <YoutubeVideo :dataSrc="video_link1"></YoutubeVideo>
@@ -256,6 +262,7 @@
       <p><br/></p>
       <p><br/></p>
       <h2>利多政策喚不回人口</h2>
+      <p><br/></p>
       <LineChart :csvinput="csvfile1"></LineChart>
       <p><br/></p>      
       <h2>活化，扮演原來角色就好</h2>
@@ -425,6 +432,7 @@ import FixedBackground from './components/FixedBackground.vue'
 import UrbanDesign from './components/UrbanDesign.vue'
 import History from './components/History.vue'
 import LineChart from './components/LineChart.vue'
+import PhotoComparison from './components/PhotoComparison.vue'
 
 /* images */
 import bg from './assets/bg.jpg'
@@ -477,6 +485,8 @@ import map1 from './assets/mobile/map1.jpg'
 import map2 from './assets/mobile/map2.jpg'
 import map1_web from './assets/map1.jpg'
 import map2_web from './assets/map2.jpg'
+import compare1_new from './assets/mobile/a2.jpg'
+import compare1_old from './assets/mobile/a21.jpg'
 
 /* videos */
 // import coverVideo_mobile from './assets/videos/mobile/phone_cover.mp4'
@@ -545,18 +555,22 @@ export default {
       map2: map2,
       map1_web: map1_web,
       map2_web: map2_web,
+      compare1_new: compare1_new,
+      compare1_old: compare1_old,
       relate1: 'http://via.placeholder.com/480x304',
       relate2: 'http://via.placeholder.com/480x304',
       relate3: 'http://via.placeholder.com/480x304',
       relate4: 'http://via.placeholder.com/480x304',
-      link1: "start",
-      link2: "./trip.html",
+      link1: "anchor1",
+      link2: "anchor2",
+      link3: "anchor3",
+      link4: "./trip.html",
       video_link1: 'https://www.youtube.com/embed/nNXjZim2dRc?rel=0',
       csvfile1: '../static/newdata.csv'
     }
   },
   components: {
-    Indicator, HeadBar, Cover, CoverVideo, YoutubeVideo, ContentContainer, Quote, Share, ImageContain, LazyImageContain, Editor, Logo, FBComment, Relate, Foot, FixedBackground, UrbanDesign, History, LineChart
+    Indicator, HeadBar, Cover, CoverVideo, YoutubeVideo, ContentContainer, Quote, Share, ImageContain, LazyImageContain, Editor, Logo, FBComment, Relate, Foot, FixedBackground, UrbanDesign, History, LineChart, PhotoComparison
   },
   created: function(){
     window.addEventListener('scroll', this.onScroll);
@@ -569,6 +583,14 @@ export default {
       this.scroll_now = window.pageYOffset;
     },
     hyperlink: function(link,type){
+
+      //toggle hamburger menu
+      var menu = document.getElementById('hbutton-contain');
+      menu.classList.toggle("open");
+
+      var hamburger = document.getElementById('nav-icon');
+      hamburger.classList.toggle("open");
+
       if(type==="inner"){
             // scrolling to anchor animation
             let scrollDuration = 500;

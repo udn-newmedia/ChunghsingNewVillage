@@ -1,8 +1,10 @@
 <template>
     <div id="head-bar" :style="{top: top+'px'}">
-        <div id="hbutton-contain">
-            <slot></slot>
-            <slot name="inner-link" :linkType="inner"></slot>
+        <div id="hbutton-contain" :class="{open: isOpen}">
+            <!--<slot></slot>-->
+            <slot name="inner-link1" :linkType="inner"></slot>
+            <slot name="inner-link2" :linkType="inner"></slot>
+            <slot name="inner-link3" :linkType="inner"></slot>
             <slot name="outer-link" :linkType="outer"></slot>
             <div id="logo-contain" class="hidden-lg" >
                 <Logo />
@@ -12,11 +14,11 @@
             <a href="."><img src="https://udn.com/upf/newmedia/image/udn.png"></a>
         </div>
         <div id="hbutton" class="squre hidden-lg">
-            <div id="nav-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+            <div id="nav-icon" :class="{open: isOpen}" @click="handleClick">
+                <span :style="{backgroundColor: buttonColor}"></span>
+                <span :style="{backgroundColor: buttonColor}"></span>
+                <span :style="{backgroundColor: buttonColor}"></span>
+                <span :style="{backgroundColor: buttonColor}"></span>
             </div>
         </div>
     </div>
@@ -28,7 +30,7 @@ import Logo from './Logo'
 
 export default {
     name: 'indicator',
-    props: ['color'],
+    props: ['color', 'buttonColor'],
     components: { Logo },
     data: function() {
         return {
@@ -42,6 +44,19 @@ export default {
         window.addEventListener('scroll', this.handleScroll);
     },
     methods: {
+        clicker: function() {
+            console.log('click')
+        },
+        handleClick: function() {
+            this.isOpen = !this.isOpen;
+            console.log('hamburger click');
+            // ga("send", {
+            //     "hitType": "event",
+            //     "eventCategory": "Ham Click",
+            //     "eventAction": "click",
+            //     "eventLabel": "[" + Utils.detectPlatform() + "] [" + document.querySelector('title').innerHTML + "] [Ham Click]"
+            // });
+        },
         handleScroll: function(event) {
             let currentH = window.pageYOffset
             if (currentH < window.innerHeight / 2) {
@@ -56,9 +71,6 @@ export default {
                 }
 
             }
-        },
-        say: function(message){
-            console.log(message);
         }
     }
 }

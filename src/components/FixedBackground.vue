@@ -71,7 +71,4 @@ export default {
             font-size: 15px;
         }
     }
-    @media screen and (min-width: 1025px){
-        
-    }
 </style>
