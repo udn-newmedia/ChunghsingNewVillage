@@ -13,8 +13,6 @@
 
     <ContentContainer background-color="#ECEAEA">
       <p><br/></p>
-      <LineChart></LineChart>
-      <p><br/></p>
       <p>20年來，台灣邊緣弱勢兒童增加一倍。《聯合報》找到8歲住在貨櫃屋的女孩、找到住在破舊髒亂沒熱水澡可洗的10歲男孩，但我們不想一次性消費個案故事，也不是給予捐款就能幫孩子翻轉命運。我們想邀請讀者探究為何這麼多孩子落在社會安全網之外？理解社會制度出了何種問題，進一步督促政府補好安全網。</p>
       <p><br/></p>
       <Share href="https://udn.com/upf/newmedia/2017_data/poverty/index.html" />
@@ -258,8 +256,7 @@
       <p><br/></p>
       <p><br/></p>
       <h2>利多政策喚不回人口</h2>
-      <p><br/></p>
-      <!--<LineChart></LineChart>-->
+      <LineChart :csvinput="csvfile1"></LineChart>
       <p><br/></p>      
       <h2>活化，扮演原來角色就好</h2>
       <p><br/></p>
@@ -554,7 +551,8 @@ export default {
       relate4: 'http://via.placeholder.com/480x304',
       link1: "start",
       link2: "./trip.html",
-      video_link1: 'https://www.youtube.com/embed/nNXjZim2dRc?rel=0'
+      video_link1: 'https://www.youtube.com/embed/nNXjZim2dRc?rel=0',
+      csvfile1: '../static/newdata.csv'
     }
   },
   components: {
