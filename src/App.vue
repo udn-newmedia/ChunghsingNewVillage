@@ -39,40 +39,42 @@
       <YoutubeVideo :dataSrc="video_link1"></YoutubeVideo>
       <p><br/></p>
       <p><br/></p>
-			<p>從車站到學校，沿途都是荒煙蔓草，雜草比人高，幾乎把車道掩埋。在這裡，有個小女孩住在貨櫃屋裡。</p>
+      <p>光復節那天傍晚，聯合報採訪團到仁愛路「八樓」訪問宋楚瑜，當年「馬宋會」 ，馬英九和宋楚瑜就是在這裡共吃家鄉湖南菜。採訪團到之前，宋楚瑜在閱讀、準備十一月APEC資料。「今天正好是光復節，國民黨在慶祝台灣光復節，台灣省不就是被這些人給凍掉的嗎?」宋楚瑜語調已不再激昂，但氣仍在。</p>
 			<p><br/></p>
-			<p>她剛學會走路時，就跟著爸爸從花蓮流浪到西部偏鄉，最後在河邊橋下遊蕩，沒有居所。</p>
+      <p>宋楚瑜或許忘記許多事，但中興新村與一九九六年十二月十八日台北賓館的那一夜，他記得清清楚楚。</p>
+			<p><br/></p>
+      <h2>凍省「那一夜」 宋省長來還原</h2>         
+			<p><br/></p>   
+      <p>國發會召開的前六天，總統兼國民黨主席李登輝在台北賓館召集黨政高層會議，討論內容包括省虛級化、中央政府體制等憲改議題。當年，與會人士在會後皆三緘其口，隔天媒體對這場黨政高層峰會的具體內容報導有限。廿一年後，宋楚瑜「還原」那天晚上開會的幾位關鍵人物的內容。</p>
+			<p><br/></p>
+      <p>宋楚瑜說，十二月十八日下午五點，省議會質詢結束，他和省議會議長劉炳偉趕到到台北賓館，「凍省」是晚上會議的重頭戲。宋楚瑜說，「我必須為國民黨主席吳敦義先生說句話。」 </p>
+			<p><br/></p>      
+      <p>除了當時的立法院長劉松藩對「凍省」持保留態度，宋楚瑜說，吳敦義有為「凍省」的決策說了一段話：「如果輕率凍省，沒有周延的配套措施，將來國民黨恐怕會出大問題。」</p>
+			<p><br/></p>      
+      <p>宋楚瑜表示，經過一輪討論、交換意見後，李登輝最後裁示「不搞了（指凍省案）」。結束時，李登輝走到劉炳偉的面前說：「滿意了吧！」劉炳偉笑答：「總統英明」。</p>
+			<p><br/></p>      
+      <p>宋楚瑜指出，原先他與李登輝約好三天後會面，所以他問李總統：「周五還要再會面嗎?」李登輝說：「今天不是決定好了嗎？（指不搞凍省）李登輝又補了一句「沒事了」。 </p>
+      <p><br/></p>
+      <p><br/></p>
+      <LazyImageContain width="450" height="450" :src="img16" :src-web="img16_web" imgsay="宋楚瑜（右2）陪同總統李登輝（左2）巡視地方。記者鄭清元／翻攝"/>
 			<p><br/></p>
 			<p><br/></p>
-			<Quote text="檳榔攤的阿姨問她：「媽媽呢？」「媽媽跑了。」" color="#FF4612" borderColor="#B5B5B5"/>
+      <p>會議結束已是深夜十時，宋楚瑜和劉炳偉趕回中興新村。隔早上天，劉炳偉提醒宋楚瑜：「省長，你還是不能太大意」，宋說「你也聽到了，總統昨晚都說不搞了」，劉炳偉接著說，報告省長，我昨晚親耳聽到有兩個人對話，其中一個人說「怎麼辦?」另一個人答「沒關係，照幹」。</p>
 			<p><br/></p>
+      <p>宋楚瑜補充，這兩個人一個是學者，另一位是當時在行政院擔任高層的人士。「這些，你們可以去問劉炳偉，有沒有這回事。」</p>
 			<p><br/></p>
-			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
+      <p>劉炳偉的擔憂真的發生了。十天後，一九九六年十二月廿八日，國發會達成「自下屆起，凍結省自治選舉」的共識，「凍省案」拍板。</p>      
 			<p><br/></p>
-			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
+      <p>接著三天後，也就是一九九六年最後一天，宋楚瑜丟出「請辭」省長震撼彈，一九九七一整年，台灣政壇驚濤駭浪。</p>
 			<p><br/></p>
-			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
+      <p>宋楚瑜說，當年，省議員、媒體一直追問他事前知不知道中央要「凍省」的決策，當時他都說「中央從來沒有人跟我討論過」，因為，他親自收到的信息是「不搞了」。宋楚瑜說，大家不是都在說「夜奔敵營嘛」，直到國發會作出「凍省」共識，才發現自己連敵人都不如 ，「敵營的人都比我宋楚瑜早先知道。」</p>
+			<p><br/></p>
+      <p>接下來的政局發展，宋楚瑜脫離國民黨，投入兩千年總統大選，國民黨分裂，也丟掉了政權。應驗了吳敦義在台北賓館那夜說的話：「國民黨會出很大的問題。」</p>
 		</ContentContainer>
-		<FixedBackground :src="fixBg1" :src-web="fixBg1_web" text="宋楚瑜圖說待補圖說待補圖說待補。記者曾吉松／攝影"/>    
+
+    <PhotoComparison :src-new="compare1_new" :src-old="compare1_old" :src-web-new="compare1_web_new" :src-web-old="compare1_web_old" text="中興新村牌樓。記者鄭清元／攝影（老照片翻攝自「綠情懷舊專輯」）"></PhotoComparison>
+
     <ContentContainer background-color="#ECEAEA">
-			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
-			<p><br/></p>
-			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
-			<p><br/></p>
-			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
-			<p><br/></p>
-			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
-			<p><br/></p>
-			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
-			<p><br/></p>
-			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
-			<p><br/></p>
-			<p>人們發現她的時候還沒上小學，除了這句話，她怕生不說話，對人充滿警戒，面無表情，就像野生動物。</p>
-			<p><br/></p>
-			<p>路過大橋的鄉民，好心幫爸爸介紹工作，讓他有收入，勉強可以租個房子安頓女兒，但因種種因素又遭房東趕出去。雇主把用來當倉庫的貨櫃屋清出來，讓父女有個遮風避雨的地方。</p>
-		</ContentContainer>
-    <PhotoComparison :src-new="compare1_new" :src-old="compare1_old" text="中興新村牌樓。記者鄭清元／攝影（老照片翻攝自「綠情懷舊專輯」）"></PhotoComparison>
-    <ContentContainer>
       <p><br/></p>
 			<p>「她爸爸來我這邊打工，我們每天六點就出門了，結果小孩常常沒上學，有時候6天沒上學、10天沒上學，情況很嚴重，老師找不到她爸爸，就打電話給我找小孩、校長也打給我、社會局也打給我，最後連少年組也打給我了！」雇主說，閒置的貨櫃屋剛好在學校附近，也方便學校老師早上來帶孩子去上課。</p>
 			<p><br/></p>
@@ -469,6 +471,8 @@ import img14 from './assets/mobile/c22.jpg'
 import img14_web from './assets/c22.jpg'
 import img15 from './assets/mobile/c3.jpg'
 import img15_web from './assets/c3.jpg'
+import img16 from './assets/mobile/a4.jpg'
+import img16_web from './assets/a4.jpg'
 import fixBg1_web from './assets/a1.jpg'
 import fixBg1 from './assets/mobile/a1.jpg'
 import fixBg2_web from './assets/b1.jpg'
@@ -487,6 +491,9 @@ import map1_web from './assets/map1.jpg'
 import map2_web from './assets/map2.jpg'
 import compare1_new from './assets/mobile/a2.jpg'
 import compare1_old from './assets/mobile/a21.jpg'
+import compare1_web_new from './assets/a2.jpg'
+import compare1_web_old from './assets/a21.jpg'
+
 
 /* videos */
 // import coverVideo_mobile from './assets/videos/mobile/phone_cover.mp4'
@@ -535,6 +542,8 @@ export default {
       img14_web: img14_web,
       img15: img15,
       img15_web: img15_web,
+      img16: img16,
+      img16_web: img16_web,
       coverVideo_mobile: coverVideo_mobile,
       coverVideo_web: coverVideo_web,
       coverVideoPoster: coverVideoPoster,
@@ -557,6 +566,8 @@ export default {
       map2_web: map2_web,
       compare1_new: compare1_new,
       compare1_old: compare1_old,
+      compare1_web_new: compare1_web_new,
+      compare1_web_old: compare1_web_old,
       relate1: 'http://via.placeholder.com/480x304',
       relate2: 'http://via.placeholder.com/480x304',
       relate3: 'http://via.placeholder.com/480x304',

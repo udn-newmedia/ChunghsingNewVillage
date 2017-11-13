@@ -1,8 +1,8 @@
 <template>
     <div class="fixed-bg-contain">
         <div class="back-bg-contain" :style="{opacity: opacity}">
-            <img class="hidden-md hidden-lg" v-lazy="src">
-            <img class="hidden-xs hidden-sm" v-lazy="srcWeb">
+            <img class="hidden-lg" v-lazy="src">
+            <img class="hidden-xs hidden-sm hidden-md" v-lazy="srcWeb">
             <div class="bg-text" :class="{hidden: isHidden}">{{ text }}</div>
         </div>
         <div class="hidden-md hidden-lg" id="space"></div>
