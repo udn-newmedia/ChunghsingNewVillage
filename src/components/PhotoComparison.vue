@@ -1,6 +1,6 @@
 <template>
     <div class="photocomparison">
-        <div class="canvas-bg" :style="{opacity: opacity}" @dragover.prevent>
+        <div class="canvas-bg" :style="{opacity: opacity}">
             <canvas />
             <div class="slide hidden-xs hidden-sm hidden-md" :style="{left: slideLeft*100 + '%'}">
                 <div class="slide-bar"></div>
@@ -95,24 +95,12 @@ export default {
             }
         },
         compareOnDrag: function(){
-
-            // let self = this;
-
-            let shift = d3.mouse(this)[0];
-            console.log(this)
-
-            // let bg_ratio = self.slideLeft;
-
-            // d3.drag().on('drag', ()=>{
-
-            // console.log(that)
-
-            // self.slideLeft += shift;
-
-            // this.ctx.drawImage(this.image2, this.image2.width * bg_ratio, 0, this.image2.width * (1 - bg_ratio), this.image2.height, this.canvas_width * bg_ratio, 0, this.canvas_width * (1 - bg_ratio), this.canvas_height);
-
-            // })
-        }
+            if(d3.event.x < 5 || d3.event.x > 880-5)    return;
+            let bg_ratio = d3.event.x/880;
+            this.ctx.drawImage(this.image, 0, 0, this.image.width, this.image.height, 0, 0, this.canvas_width, this.canvas_height);
+            this.ctx.drawImage(this.image2, this.image2.width * bg_ratio, 0, this.image2.width * (1 - bg_ratio), this.image2.height, this.canvas_width * bg_ratio, 0, this.canvas_width * (1 - bg_ratio), this.canvas_height);
+            this.slideLeft = bg_ratio;            
+        }    
     },
     mounted: function() {
         this.ctx = this.$el.children[0].children[0].getContext('2d')
@@ -139,6 +127,7 @@ export default {
 
             d3.select('.slide').call(d3.drag()
                                     .on('drag', this.compareOnDrag));
+
         }
     }
 }
