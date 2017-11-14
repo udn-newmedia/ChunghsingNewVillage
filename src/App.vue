@@ -72,7 +72,7 @@
       <p>接下來的政局發展，宋楚瑜脫離國民黨，投入兩千年總統大選，國民黨分裂，也丟掉了政權。應驗了吳敦義在台北賓館那夜說的話：「國民黨會出很大的問題。」</p>
 		</ContentContainer>
 
-    <PhotoComparison :src-new="compare1_new" :src-old="compare1_old" :src-web-new="compare1_web_new" :src-web-old="compare1_web_old" text="中興新村牌樓。記者鄭清元／攝影（老照片翻攝自「綠情懷舊專輯」）"></PhotoComparison>
+    <PhotoComparison :src-new="compare1_new" :src-old="compare1_old" :src-web-new="compare1_web_new" :src-web-old="compare1_web_old" src-mob-width="450" src-mob-height="800" src-web-width="1920" src-web-height="1483" data-target="1" text="中興新村牌樓。記者鄭清元／攝影（老照片翻攝自「綠情懷舊專輯」）"></PhotoComparison>
 
     <ContentContainer background-color="#ECEAEA">
       <p><br/></p>
@@ -273,6 +273,11 @@
       <p><br/></p>
       <p>陳樂人說，若要中興文化風華再現，就用文資保存角度進駐，後來卻是想將經濟和研究開發種進這片土地，但這是兩碼子事；起初強調兩者能並行，最後雙方都沒堅持住，部分眷舍遭拆，一切回到原點。</p>
       <p><br/></p>
+    </ContentContainer>
+
+    <PhotoComparison :src-new="compare2_new" :src-old="compare2_old" :src-web-new="compare2_web_new" :src-web-old="compare2_web_old" src-mob-width="450" src-mob-height="800" src-web-width="1920" src-web-height="1080" data-target="2" text="中興新村的建築排列極具特色，剛興建時未見成排綠樹，現已綠意盎然。記者王騰毅／攝影（老照片翻攝自「綠情懷舊專輯」）"></PhotoComparison>
+
+    <ContentContainer background-color="#ECEAEA">
       <p>「送走魔鬼卻迎來怪物。」中科管理局在高等園區的失敗，讓這爛攤子轉交至國有財產署，但從目前辦理的公聽會來看，一票人又在爛蘋果中找看起來稍好一點的，幾乎可預見再次失敗。</p>
       <p><br/></p>
       <p>時下文創正夯，陳樂人卻不樂見其隨意進駐，他指出，文創可行，但應以中興新村做為中心去發揚，只是政府一接手，這理想就沒了，公部門短視近利，盼村子熱度迅速提升，不是從外地引進文創，就是別的軍眷村翻版，之前辦「駐村藝術家」，畫家進來畫畫，和村民沒互動，也是給人奇怪的違和感，最後無疾而終。</p>
@@ -493,6 +498,10 @@ import compare1_new from './assets/mobile/a2.jpg'
 import compare1_old from './assets/mobile/a21.jpg'
 import compare1_web_new from './assets/a2.jpg'
 import compare1_web_old from './assets/a21.jpg'
+import compare2_new from './assets/mobile/b43.jpg'
+import compare2_old from './assets/mobile/b44.jpg'
+import compare2_web_new from './assets/b43.jpg'
+import compare2_web_old from './assets/b44.jpg'
 
 
 /* videos */
@@ -568,6 +577,10 @@ export default {
       compare1_old: compare1_old,
       compare1_web_new: compare1_web_new,
       compare1_web_old: compare1_web_old,
+      compare2_new: compare2_new,
+      compare2_old: compare2_old,
+      compare2_web_new: compare2_web_new,
+      compare2_web_old: compare2_web_old,
       relate1: 'http://via.placeholder.com/480x304',
       relate2: 'http://via.placeholder.com/480x304',
       relate3: 'http://via.placeholder.com/480x304',

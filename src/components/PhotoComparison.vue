@@ -2,7 +2,7 @@
     <div class="photocomparison">
         <div class="canvas-bg" :style="{opacity: opacity}">
             <canvas />
-            <div class="slide hidden-xs hidden-sm hidden-md" :style="{left: slideLeft*100 + '%'}">
+            <div class="slide hidden-xs hidden-sm hidden-md" :style="{left: slideLeft*100 + '%'}" :data-target="dataTarget">
                 <div class="slide-bar"></div>
                 <div class="slide-bar-arrow slide-bar-left"></div>
                 <div class="slide-bar-arrow slide-bar-right"></div>
@@ -17,7 +17,7 @@ import * as d3 from "d3"
 
 export default {
     name: 'photocomparison',
-    props: ['text', 'src-old', 'src-new', 'src-web-new', 'src-web-old'],
+    props: ['text', 'src-old', 'src-new', 'src-web-new', 'src-web-old', 'src-mob-width', 'src-mob-height', 'src-web-width', 'src-web-height', 'data-target'],
     data: function(){
         return{
             w: window.innerWidth,
@@ -33,18 +33,16 @@ export default {
     computed: {
         canvas_width: function(){
             if(this.w < 1200){
-                return 450
-            }
-            else{
-                return 1920
+                return this.srcMobWidth
+            }else{
+                return this.srcWebWidth
             }
         },
         canvas_height: function(){
             if(this.w < 1200){
-                return 800
-            }
-            else{
-                return 1483
+                return this.srcMobHeight
+            }else{
+                return this.srcWebHeight
             }
         }
     },
@@ -95,14 +93,21 @@ export default {
             }
         },
         compareOnDrag: function(){
-            if(d3.event.x < 5 || d3.event.x > 880-5)    return;
-            let bg_ratio = d3.event.x/880;
+            var that = this;
+            let canvasbgWidth = 880,
+                margin = 5;
+
+            if(d3.event.x < margin || d3.event.x > canvasbgWidth-margin)    return;
+
+            let bg_ratio = d3.event.x/ canvasbgWidth;
+
             this.ctx.drawImage(this.image, 0, 0, this.image.width, this.image.height, 0, 0, this.canvas_width, this.canvas_height);
             this.ctx.drawImage(this.image2, this.image2.width * bg_ratio, 0, this.image2.width * (1 - bg_ratio), this.image2.height, this.canvas_width * bg_ratio, 0, this.canvas_width * (1 - bg_ratio), this.canvas_height);
-            this.slideLeft = bg_ratio;            
-        }    
+            this.slideLeft = bg_ratio;             
+        }
     },
     mounted: function() {
+
         this.ctx = this.$el.children[0].children[0].getContext('2d')
 
         if (this.w < 1200) {
@@ -125,9 +130,8 @@ export default {
             this.image.addEventListener('load', this.drawCanvas)
             this.opacity = 1
 
-            d3.select('.slide').call(d3.drag()
+            d3.select('.slide[data-target ="'+this.dataTarget+'"]').call(d3.drag()
                                     .on('drag', this.compareOnDrag));
-
         }
     }
 }
